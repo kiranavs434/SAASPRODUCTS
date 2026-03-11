@@ -1,0 +1,94 @@
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+**/build/
+**/generated_plugin_registrant.dart
+
+# --- Android ---
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/**/gradle-wrapper.jar
+**/android/app/*.keystore
+**/android/app/*.jks
+**/android/app/google-services.json
+**/android/app/crashlytics-build.properties
+**/android/app/firebase_app_id_file.json
+
+# --- iOS / macOS ---
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner/GoogleService-Info.plist
+**/macos/Pods/
+**/macos/Flutter/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+
+# --- Windows / Linux / Web ephemerals ---
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- Secrets & envs ---
+.env
+.env.*
+**/*.keystore
+**/*.jks
+
+# --- Built artifacts ---
+**/*.aab
+**/*.apk
+**/*.ipa
+**/*.app
+**/dist/
+
+# --- Node / misc (if present) ---
+node_modules/
+
+# Flutter & Dart
+.dart_tool/
+.packages
+build/
+
+# Android / iOS
+.gradle/
+/android/app/build/
+/ios/Pods/
+
+# Python virtualenv
+.venv/
+venv/
+env/
+
+# Cache / temp
+**/__pycache__/
+*.log
+*.tmp
+*.swp
+
+# Flutter
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Android
+*.iml
+/.gradle
+/local.properties
+/.idea
+
+# iOS
+Pods/
+Runner.xcworkspace/
+
+
+*.zip
